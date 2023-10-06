@@ -111,6 +111,8 @@ body{
  font-size: 18px;
  border-right: 1px solid grey;
  color: grey;
+ padding: 10px 30px 30px 30px;
+
 }
 .image_about{
     padding: 0;
@@ -118,16 +120,40 @@ body{
 .image_about img{
     width: 100%;
     margin: 0;
-}
-.title_about h2{
-    font-family: Lucida Handwriting;
-    margin-top: 30px;
-    font-size: 24px;
+    height: 100%;
+    object-fit: cover;
 }
 .title_about h3{
-    font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Garamond;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.title_about h2{
+    font-family: Monaco;
+    font-size: 40px;
+    font-style: italic;
+    margin: 20px 50px;
+    padding: 10px 100px;
+    line-height: 5rem;
 }
 .description{
-
+    padding: 0 85px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.button_about{
+   padding: 6px 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(139, 139, 139);
+   border-color: rgb(139, 139, 139);
+}
+.button_about a{
+    text-decoration: none;
+}
+.button:hover{
+    background-color: black;
+}
+.button_about span{
+    color: white;
 }
